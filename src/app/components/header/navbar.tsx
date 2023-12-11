@@ -14,14 +14,6 @@ function Navbar() {
       <ul className="flex justify-between">
         <li className="ml-6 flex items-center cursor-pointer">
           {" "}
-          <span>Home</span>
-        </li>
-        <li className="ml-6 flex items-center cursor-pointer">
-          {" "}
-          <span>Plans</span>
-        </li>
-        <li className="ml-6 flex items-center cursor-pointer">
-          {" "}
           <span>Join/Login</span>
         </li>
       </ul>
