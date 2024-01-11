@@ -86,7 +86,7 @@ function SectionOne({ title, ...rest }: SectionOneProps) {
           className="w-full h-full"
           width={400}
           height={300}
-          src={"/images/landing page/section-one-1.png"}
+          src={"/images/section-one-1.png"}
           alt=""
         />
       </div>
