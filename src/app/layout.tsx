@@ -1,9 +1,13 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import Header from "./components/header/header";
 
-const inter = Inter({ subsets: ["latin"] });
+import { DM_Sans } from "next/font/google";
+
+const dM_Sans = DM_Sans({
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Profile Route",
@@ -17,9 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} p-0`}>
-          <Header />
-          {children}
+      <body className={`${dM_Sans.className} p-0`}>
+        <Header />
+        {children}
       </body>
     </html>
   );

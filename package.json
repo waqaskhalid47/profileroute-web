@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "flowbite": "^2.2.1",
     "next": "13.5.4",
     "postcss-preset-env": "^9.2.0",
     "react": "^18",
