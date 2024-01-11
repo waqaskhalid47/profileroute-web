@@ -46,7 +46,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-blue-50 md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-blue-50 md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 cursor-pointer"
                 aria-current="page"
               >
                 Register / Sign In

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Header from "./components/header/header";
 
 import { DM_Sans } from "next/font/google";
+import Footer from "./components/footer/footer";
 
 const dM_Sans = DM_Sans({
   weight: "400",
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={`${dM_Sans.className} p-0`}>
         <Header />
         {children}
+        <Footer/>
       </body>
     </html>
   );

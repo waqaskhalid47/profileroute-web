@@ -13,9 +13,11 @@
     "next": "13.5.4",
     "postcss-preset-env": "^9.2.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "uninstall": "^0.0.0"
   },
   "devDependencies": {
+    "@locator/babel-jsx": "^0.4.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
